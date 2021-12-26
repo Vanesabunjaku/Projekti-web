@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulli-->
+    <title>Pet Shop</title>
+    <!--FONTI I TEXTIT-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!--STYLE FILE NE CSS-->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style2.css">   
+</head>
+<body>
+    <header>
+      <!--AREA E NAVIGIMIT-->
+      <div class="content">
+        <div class="wrapper">
+      <div class="logo">
+      <img src="pets.png" alt="pets" style="max-width:100%;height:auto;"></a>
+      </div>
+    <ul class="nav-area">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="kafshet.html">Kafshët</a></li>
+        <li><a href="rreth_nesh.html">Rreth Nesh</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="register.html">Register Now</a></li>
+        </ul>
+        </div>
+        </div>
+        <!--REGISTER FORMA-->
+        <div class="register-text">
+          <form  action="" class="register">
+              <div class="register">
+                  <br><label>Username</label>
+            <br><input type="text" placeholder= "Enter your username" id="Username"  />
+            <br><small for="Username" id="usernameMessage"></small><br>
+            <br><label>E-mail</label>
+            <br><input type="email" placeholder= "Enter your e-mail" id="Email" />
+            <br><small for="Email" id="emailMessage"></small><br>
+        <br><label>Create password</label>
+            <br><input type="password" placeholder="Enter your password" id="Password"/>
+            <br><small for="Password" id="passMessage"></small><br>
+            <br><label>  Confirm Password</label>
+            <br><input type="password" placeholder="Re-type your password" id="Password2"/>
+            <br><small for="Password2" id="pass2Message"></small><br>
+       <br>       <input id="submit" type="submit" value="REGISTER">
+      <br><br><br> <p>Already have an account?<a href="login.html">Login here</a></p>
+              </div>
+          </form>
+          <script src="register.js"></script>
+      </div>
+      </header>
+    </body>
+    </html>
